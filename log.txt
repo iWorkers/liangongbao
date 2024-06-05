@@ -1,0 +1,1792 @@
+[2024-06-02 10:04:33] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:04:33] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:04:33] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0817OCcq0som1w3Q HTTP/1.1" 200 46820
+[2024-06-02 10:04:38] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:04:41] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0817OCcq0som1w3Q&_=1717293878288 HTTP/1.1" 200 40
+[2024-06-02 10:04:42] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 10:04:42] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0817OCcq0som1w3Q&_=17172938782880817OCcq0som1w3Q&_=1717293882522 HTTP/1.1" 200 72
+[2024-06-02 10:04:42] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:04:43] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=001XKsGa1nAozH0hfTFa1UeI3B4XKsGz&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:04:43] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 126, in send
+    response.content.decode() if isinstance(response.content, bytes) else response.content)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 6: invalid start byte
+
+[2024-06-02 10:07:09] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:07:09] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:07:09] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0311Bday0dRbGa1Z HTTP/1.1" 200 46194
+[2024-06-02 10:07:14] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:07:15] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0311Bday0dRbGa1Z&_=1717294034708 HTTP/1.1" 200 40
+[2024-06-02 10:07:16] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 10:07:16] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0311Bday0dRbGa1Z&_=17172940347080311Bday0dRbGa1Z&_=1717294036255 HTTP/1.1" 200 72
+[2024-06-02 10:07:16] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:07:16] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0016zS000ikMcS1eGm000t3ZBy16zS0l&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:07:17] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0016zS000ikMcS1eGm000t3ZBy16zS0l&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:07:17] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0016zS000ikMcS1eGm000t3ZBy16zS0l&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:07:17] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0016zS000ikMcS1eGm000t3ZBy16zS0l&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:07:18] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0016zS000ikMcS1eGm000t3ZBy16zS0l&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:07:18] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0016zS000ikMcS1eGm000t3ZBy16zS0l&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:07:18] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0016zS000ikMcS1eGm000t3ZBy16zS0l&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:07:18] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0016zS000ikMcS1eGm000t3ZBy16zS0l&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:07:19] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0016zS000ikMcS1eGm000t3ZBy16zS0l&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:07:19] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0016zS000ikMcS1eGm000t3ZBy16zS0l&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:07:19] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+ValueError: not enough values to unpack (expected 3, got 2)
+
+[2024-06-02 10:08:45] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:08:45] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:08:45] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/071hn8HH19OmFa1M HTTP/1.1" 200 46948
+[2024-06-02 10:08:50] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:08:50] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071hn8HH19OmFa1M&_=1717294130496 HTTP/1.1" 200 40
+[2024-06-02 10:08:52] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 10:08:52] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071hn8HH19OmFa1M&_=1717294130496071hn8HH19OmFa1M&_=1717294131918 HTTP/1.1" 200 72
+[2024-06-02 10:08:52] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:08:52] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081Evx0w3JHmS23zMi3w3Fyc2d1Evx0t&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:08:52] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081Evx0w3JHmS23zMi3w3Fyc2d1Evx0t&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:08:53] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081Evx0w3JHmS23zMi3w3Fyc2d1Evx0t&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:08:53] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081Evx0w3JHmS23zMi3w3Fyc2d1Evx0t&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:08:53] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081Evx0w3JHmS23zMi3w3Fyc2d1Evx0t&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:08:53] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081Evx0w3JHmS23zMi3w3Fyc2d1Evx0t&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:08:54] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081Evx0w3JHmS23zMi3w3Fyc2d1Evx0t&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:08:54] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081Evx0w3JHmS23zMi3w3Fyc2d1Evx0t&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:08:54] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081Evx0w3JHmS23zMi3w3Fyc2d1Evx0t&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:08:54] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081Evx0w3JHmS23zMi3w3Fyc2d1Evx0t&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:08:54] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+ValueError: not enough values to unpack (expected 3, got 2)
+
+[2024-06-02 10:09:23] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:09:23] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:09:23] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/011NLmY53Dxx0w3g HTTP/1.1" 200 46865
+[2024-06-02 10:09:28] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:09:28] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=011NLmY53Dxx0w3g&_=1717294168472 HTTP/1.1" 200 72
+[2024-06-02 10:09:28] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:09:29] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0715KD1w33UsT23ogl0w3aWu7t45KD1i&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:09:29] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 126, in send
+    response.content.decode() if isinstance(response.content, bytes) else response.content)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 4: invalid continuation byte
+
+[2024-06-02 10:09:47] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:09:47] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:09:47] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/011trvL50zCk000R HTTP/1.1" 200 46310
+[2024-06-02 10:09:52] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:09:52] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=011trvL50zCk000R&_=1717294192370 HTTP/1.1" 200 72
+[2024-06-02 10:09:52] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:09:53] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=051MFB000Os3dS195c200dK43E3MFB05&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:09:53] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 126, in send
+    response.content.decode() if isinstance(response.content, bytes) else response.content)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 6: invalid start byte
+
+[2024-06-02 10:14:03] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:14:03] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:14:03] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0319xvJk3JVB0006 HTTP/1.1" 200 46346
+[2024-06-02 10:14:08] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:14:14] [DEBUG] >>> 
+Starting new HTTPS connection (2): lp.open.weixin.qq.com:443
+[2024-06-02 10:14:15] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0319xvJk3JVB0006&_=17172944485640319xvJk3JVB0006&_=1717294454752 HTTP/1.1" 200 40
+[2024-06-02 10:14:16] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 10:14:16] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0319xvJk3JVB0006&_=17172944485640319xvJk3JVB0006&_=17172944547520319xvJk3JVB0006&_=1717294456002 HTTP/1.1" 200 72
+[2024-06-02 10:14:16] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:14:16] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=041uWB000Vb4dS162k100lQYZV0uWB0F&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:14:17] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 127, in send
+    response.content.decode() if isinstance(response.content, bytes) else response.content)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 6: invalid start byte
+
+[2024-06-02 10:23:27] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:23:28] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:23:28] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/061rer4V3mBa100r HTTP/1.1" 200 46729
+[2024-06-02 10:23:33] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:23:35] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=061rer4V3mBa100r&_=1717295013183 HTTP/1.1" 200 40
+[2024-06-02 10:23:36] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 10:23:36] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=061rer4V3mBa100r&_=1717295013183061rer4V3mBa100r&_=1717295016725 HTTP/1.1" 200 72
+[2024-06-02 10:23:37] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:23:37] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071PvC000dpYcS1Ljr1008R0Pt3PvC0b&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:23:37] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071PvC000dpYcS1Ljr1008R0Pt3PvC0b&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:23:37] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071PvC000dpYcS1Ljr1008R0Pt3PvC0b&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:23:38] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071PvC000dpYcS1Ljr1008R0Pt3PvC0b&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:23:38] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071PvC000dpYcS1Ljr1008R0Pt3PvC0b&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:23:38] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071PvC000dpYcS1Ljr1008R0Pt3PvC0b&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:23:38] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071PvC000dpYcS1Ljr1008R0Pt3PvC0b&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:23:39] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071PvC000dpYcS1Ljr1008R0Pt3PvC0b&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:23:39] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071PvC000dpYcS1Ljr1008R0Pt3PvC0b&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:23:39] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071PvC000dpYcS1Ljr1008R0Pt3PvC0b&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:23:39] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+ValueError: not enough values to unpack (expected 3, got 2)
+
+[2024-06-02 10:24:37] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:24:37] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:24:38] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/031ZJOqg1fty0w3I HTTP/1.1" 200 47251
+[2024-06-02 10:24:42] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:24:42] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=031ZJOqg1fty0w3I&_=1717295082634 HTTP/1.1" 200 72
+[2024-06-02 10:24:42] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:24:43] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=061D42Ha1BdLyH0bxoFa1swYD62D42HY&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:24:43] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 127, in send
+    response.content.decode() if isinstance(response.content, bytes) else response.content)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb9 in position 6: invalid start byte
+
+[2024-06-02 10:25:27] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:25:27] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:25:27] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/031FVZ0x0Xm4ml2A HTTP/1.1" 200 46913
+[2024-06-02 10:25:32] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:25:32] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=031FVZ0x0Xm4ml2A&_=1717295132354 HTTP/1.1" 200 72
+[2024-06-02 10:25:32] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:25:32] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0418GT000rLHcS1q4H300Pkef838GT0z&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:25:33] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 127, in send
+    response.content.decode() if isinstance(response.content, bytes) else response.content)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 6: invalid start byte
+
+[2024-06-02 10:28:43] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:28:45] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:28:45] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/011vkZ4V3KadGa15 HTTP/1.1" 200 46440
+[2024-06-02 10:28:50] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:28:50] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=011vkZ4V3KadGa15&_=1717295330245 HTTP/1.1" 200 72
+[2024-06-02 10:28:50] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:28:50] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=031sJ40005axdS1D27000HxkEv2sJ409&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:28:51] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 125, in send
+    print(response.text.decode('utf-8'),req_url)
+AttributeError: 'str' object has no attribute 'decode'
+
+[2024-06-02 10:30:09] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:30:09] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:30:09] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0513yhvf43I00w38 HTTP/1.1" 200 47033
+[2024-06-02 10:30:14] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:30:14] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0513yhvf43I00w38&_=1717295414261 HTTP/1.1" 200 72
+[2024-06-02 10:30:14] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:30:14] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071QRl000H9fdS1TgX300lGz1i2QRl0d&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:30:14] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 125, in send
+    print(response.text.decode('utf-8'),req_url)
+AttributeError: 'str' object has no attribute 'decode'
+
+[2024-06-02 10:30:36] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:30:36] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:30:36] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/011p5fsH3Vq2Ha1T HTTP/1.1" 200 47554
+[2024-06-02 10:30:41] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:30:41] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=011p5fsH3Vq2Ha1T&_=1717295441355 HTTP/1.1" 200 72
+[2024-06-02 10:30:41] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:30:41] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=051AAwll28Fjxd4CaVkl257wJT0AAwl2&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:30:42] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 127, in send
+    response.content.decode() if isinstance(response.content, bytes) else response.content)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 6: invalid start byte
+
+[2024-06-02 10:32:26] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 10:32:26] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 10:32:27] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/001D6WRA1JQ00w3d HTTP/1.1" 200 46198
+[2024-06-02 10:32:31] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 10:32:32] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=001D6WRA1JQ00w3d&_=1717295551879 HTTP/1.1" 200 72
+[2024-06-02 10:32:32] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 10:32:32] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=05140Q0w3Sv0S23x6a2w338bAX140Q0p&type=3 HTTP/1.1" 200 None
+[2024-06-02 10:32:32] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 125, in send
+    print(response.content.decode('utf-8'),req_url)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 4: invalid continuation byte
+
+[2024-06-02 11:23:16] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 11:23:16] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 11:23:16] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/091R3NfO3uH1ll21 HTTP/1.1" 200 47900
+[2024-06-02 11:23:21] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 11:23:27] [DEBUG] >>> 
+Starting new HTTPS connection (2): lp.open.weixin.qq.com:443
+[2024-06-02 11:23:27] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=091R3NfO3uH1ll21&_=1717298601324091R3NfO3uH1ll21&_=1717298607508 HTTP/1.1" 200 72
+[2024-06-02 11:23:27] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 11:23:28] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=091caG000DQYcS1uPa100h5xgJ2caG0D&type=3 HTTP/1.1" 200 None
+[2024-06-02 11:23:28] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 125, in send
+    print(response.content.encode('utf-8'),req_url)
+AttributeError: 'bytes' object has no attribute 'encode'
+
+[2024-06-02 11:26:04] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 11:26:04] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 11:26:04] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0513yxv30zzIFa1l HTTP/1.1" 200 46237
+[2024-06-02 11:26:09] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 11:26:09] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0513yxv30zzIFa1l&_=1717298769173 HTTP/1.1" 200 72
+[2024-06-02 11:26:09] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 11:26:09] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=051u7pml2MIHyd4WN5ml2XSuZV0u7pmU&type=3 HTTP/1.1" 200 None
+[2024-06-02 11:26:09] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 125, in send
+    print(response.content.decode('utf-8'),req_url)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 10: invalid start byte
+
+[2024-06-02 11:40:26] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 11:40:26] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 11:40:26] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/061jaRfi0Y5D0w3e HTTP/1.1" 200 47068
+[2024-06-02 11:40:31] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 11:40:33] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=061jaRfi0Y5D0w3e&_=1717299631670 HTTP/1.1" 200 40
+[2024-06-02 11:40:34] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 11:40:34] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=061jaRfi0Y5D0w3e&_=1717299631670061jaRfi0Y5D0w3e&_=1717299634342 HTTP/1.1" 200 72
+[2024-06-02 11:40:34] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 11:40:34] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071R9q000HXbdS1kY4000OJiwJ0R9q0O&type=3 HTTP/1.1" 200 None
+[2024-06-02 11:40:35] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 127, in send
+    response.content.decode() if isinstance(response.content, bytes) else response.content)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 4: invalid continuation byte
+
+[2024-06-02 11:48:51] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 11:48:51] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11562
+[2024-06-02 11:48:52] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/061PAq722fIH0000 HTTP/1.1" 200 46990
+[2024-06-02 11:48:57] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 11:48:57] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=061PAq722fIH0000&_=1717300136943 HTTP/1.1" 200 40
+[2024-06-02 11:48:58] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 11:48:58] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=061PAq722fIH0000&_=1717300136943061PAq722fIH0000&_=1717300138179 HTTP/1.1" 200 72
+[2024-06-02 11:48:58] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 11:48:58] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=051Fjkll2tgzxd45Dbll2SPISv0Fjklr&type=3 HTTP/1.1" 200 None
+[2024-06-02 11:48:59] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 126, in send
+    decompressed_data = brotli.decompress(response.content)
+brotli.error: BrotliDecompress failed
+
+[2024-06-02 11:52:39] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 11:52:39] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 11:52:39] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0215FcDF4boQGa1Y HTTP/1.1" 200 46495
+[2024-06-02 11:52:44] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 11:52:44] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0215FcDF4boQGa1Y&_=1717300364077 HTTP/1.1" 200 72
+[2024-06-02 11:52:44] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 11:52:44] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=061MrMkl2fB7yd4lcWkl29Gfoo1MrMkS&type=3 HTTP/1.1" 200 None
+[2024-06-02 11:52:44] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 22, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 63, in get_tok_uid
+    token_dict = http_client.send(get_log2023_uid_tok_url)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 126, in send
+    decompressed_data = brotli.decompress(response.json())
+TypeError: a bytes-like object is required, not 'dict'
+
+[2024-06-02 11:53:41] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 11:53:41] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 11:53:41] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/001XixS14FNqml2Y HTTP/1.1" 200 47164
+[2024-06-02 11:53:46] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 11:53:46] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=001XixS14FNqml2Y&_=1717300426773 HTTP/1.1" 200 40
+[2024-06-02 11:53:48] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 11:53:48] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=001XixS14FNqml2Y&_=1717300426773001XixS14FNqml2Y&_=1717300427996 HTTP/1.1" 200 72
+[2024-06-02 11:53:48] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 11:53:48] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=061pj1Ga1S7DxH0RuZHa12ZTBe2pj1Gp&type=3 HTTP/1.1" 200 None
+[2024-06-02 11:55:17] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 11:55:18] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11562
+[2024-06-02 11:55:18] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/021N74Zf0KTqml2a HTTP/1.1" 200 46923
+[2024-06-02 11:55:23] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 11:55:23] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=021N74Zf0KTqml2a&_=1717300523105 HTTP/1.1" 200 72
+[2024-06-02 11:55:23] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 11:55:23] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=031ZTqml2frFyd4HURll20Mn8j2ZTqmu&type=3 HTTP/1.1" 200 None
+[2024-06-02 11:55:30] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 11:55:30] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-02 11:55:36] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-02 11:55:49] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy-app.lgb360.com:443
+[2024-06-02 11:55:49] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-02 11:57:15] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 11:57:15] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 11:57:15] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/041RVw3f3N0MIa18 HTTP/1.1" 200 46324
+[2024-06-02 11:57:20] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 11:57:26] [DEBUG] >>> 
+Starting new HTTPS connection (2): lp.open.weixin.qq.com:443
+[2024-06-02 11:57:26] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=041RVw3f3N0MIa18&_=1717300640222041RVw3f3N0MIa18&_=1717300646425 HTTP/1.1" 200 40
+[2024-06-02 11:57:28] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 11:57:28] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=041RVw3f3N0MIa18&_=1717300640222041RVw3f3N0MIa18&_=1717300646425041RVw3f3N0MIa18&_=1717300647910 HTTP/1.1" 200 72
+[2024-06-02 11:57:28] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 11:57:28] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=051kDzGa1FghzH02rzHa19OH7o3kDzGA&type=3 HTTP/1.1" 200 None
+[2024-06-02 11:57:33] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 11:57:34] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-02 12:01:55] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 12:01:55] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 12:01:55] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/081TQxRF2EyZ000M HTTP/1.1" 200 46498
+[2024-06-02 12:02:00] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 12:02:00] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=081TQxRF2EyZ000M&_=1717300920557 HTTP/1.1" 200 72
+[2024-06-02 12:02:00] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 12:02:01] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081rsV0w3KjYR23w930w3uPjDF4rsV04&type=3 HTTP/1.1" 200 None
+[2024-06-02 12:02:06] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 44, in <module>
+    with open("answerdict.json", 'r', encoding='utf-8') as fw:
+FileNotFoundError: [Errno 2] No such file or directory: 'answerdict.json'
+
+[2024-06-02 12:02:52] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 12:02:52] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 12:02:52] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/001vwRlD4bwr000M HTTP/1.1" 200 46901
+[2024-06-02 12:02:57] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 12:02:57] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=001vwRlD4bwr000M&_=1717300977709 HTTP/1.1" 200 72
+[2024-06-02 12:02:58] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 12:02:58] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=031pwr000ZaddS1mxk0008hYfi0pwr0l&type=3 HTTP/1.1" 200 None
+[2024-06-02 12:03:01] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 44, in <module>
+    with open("answerdict.json", 'r', encoding='utf-8') as fw:
+FileNotFoundError: [Errno 2] No such file or directory: 'answerdict.json'
+
+[2024-06-02 12:04:12] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 12:04:12] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 12:04:12] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/031hlN6m1HQtFa1E HTTP/1.1" 200 46865
+[2024-06-02 12:04:17] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 12:04:17] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=031hlN6m1HQtFa1E&_=1717301057174 HTTP/1.1" 200 72
+[2024-06-02 12:04:17] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 12:04:17] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=07176RGa1rUZyH0rzbGa18GgOI176RGU&type=3 HTTP/1.1" 200 None
+[2024-06-02 12:04:22] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 12:04:22] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-02 12:04:33] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-02 12:04:37] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-02 12:04:41] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-02 12:04:44] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-02 12:04:47] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-02 12:04:48] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/submitCompetition HTTP/1.1" 200 None
+[2024-06-02 12:04:54] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy-app.lgb360.com:443
+[2024-06-02 12:04:55] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-02 12:04:55] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/drawPrize HTTP/1.1" 200 None
+[2024-06-02 12:05:55] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-02 02:02:42] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 02:02:42] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11564
+[2024-06-02 02:02:42] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/081GjMBe2G7SFa1K HTTP/1.1" 200 46594
+[2024-06-02 02:02:48] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 02:02:52] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=081GjMBe2G7SFa1K&_=1717308168028 HTTP/1.1" 200 40
+[2024-06-02 02:02:54] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 02:02:54] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=081GjMBe2G7SFa1K&_=1717308168028081GjMBe2G7SFa1K&_=1717308173995 HTTP/1.1" 200 72
+[2024-06-02 02:02:54] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 02:02:54] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071TPy000GFbeS1scx200PXcRe0TPy0D&type=3 HTTP/1.1" 200 None
+[2024-06-02 02:03:03] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 02:03:03] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-02 02:03:03] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-02 02:03:04] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-02 02:03:05] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-02 02:03:05] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-02 02:03:06] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-02 02:03:07] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/submitCompetition HTTP/1.1" 200 None
+[2024-06-02 02:03:13] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy-app.lgb360.com:443
+[2024-06-02 02:03:13] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-02 02:03:14] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/drawPrize HTTP/1.1" 200 None
+[2024-06-02 02:03:15] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/drawPrize HTTP/1.1" 200 None
+[2024-06-02 02:03:23] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-02 02:05:05] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-02 02:05:06] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/drawPrize HTTP/1.1" 200 None
+[2024-06-02 02:05:15] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-02 04:12:48] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 04:12:48] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 04:12:49] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/051oshx01sXrFa17 HTTP/1.1" 200 46688
+[2024-06-02 04:12:54] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 04:12:58] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=051oshx01sXrFa17&_=1717315974338 HTTP/1.1" 200 40
+[2024-06-02 04:12:59] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 04:12:59] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=051oshx01sXrFa17&_=1717315974338051oshx01sXrFa17&_=1717315979477 HTTP/1.1" 200 72
+[2024-06-02 04:12:59] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 04:13:00] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=051CIp000n36eS19F2000WsnsH3CIp0J&type=3 HTTP/1.1" 200 None
+[2024-06-02 04:13:00] [ERROR] >>> 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\main.py", line 22, in <module>
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\get_wechat_secret.py", line 63, in get_tok_uid
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\http_utils.py", line 126, in send
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 6: invalid start byte
+
+[2024-06-02 04:13:40] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 04:13:41] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 04:13:41] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/031uNYOI1fLp000K HTTP/1.1" 200 47564
+[2024-06-02 04:13:45] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 04:13:46] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=031uNYOI1fLp000K&_=1717316025841 HTTP/1.1" 200 72
+[2024-06-02 04:13:46] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 04:13:46] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=031xOG000V4neS1PTx200DZXeH0xOG0I&type=3 HTTP/1.1" 200 None
+[2024-06-02 04:13:46] [ERROR] >>> 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\main.py", line 22, in <module>
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\get_wechat_secret.py", line 63, in get_tok_uid
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\http_utils.py", line 126, in send
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 6: invalid start byte
+
+[2024-06-02 04:15:51] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 04:15:51] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 04:15:51] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0710wnCF4uu2ll2V HTTP/1.1" 200 45956
+[2024-06-02 04:15:56] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 04:15:56] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0710wnCF4uu2ll2V&_=1717316156730 HTTP/1.1" 200 40
+[2024-06-02 04:15:58] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 04:15:58] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0710wnCF4uu2ll2V&_=17173161567300710wnCF4uu2ll2V&_=1717316157964 HTTP/1.1" 200 72
+[2024-06-02 04:15:58] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 04:15:58] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0316Tenl2Yswwd4aGell2UwnCh16Ten0&type=3 HTTP/1.1" 200 None
+[2024-06-02 04:15:58] [ERROR] >>> 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\main.py", line 22, in <module>
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\get_wechat_secret.py", line 63, in get_tok_uid
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\http_utils.py", line 126, in send
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb5 in position 6: invalid start byte
+
+[2024-06-02 04:18:20] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 04:18:20] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 04:18:21] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/021YwYGC0X8Y000n HTTP/1.1" 200 46371
+[2024-06-02 04:18:25] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 04:18:26] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=021YwYGC0X8Y000n&_=1717316305775 HTTP/1.1" 200 40
+[2024-06-02 04:18:28] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 04:18:28] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=021YwYGC0X8Y000n&_=1717316305775021YwYGC0X8Y000n&_=1717316307979 HTTP/1.1" 200 40
+[2024-06-02 04:18:29] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 04:18:29] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=021YwYGC0X8Y000n&_=1717316305775021YwYGC0X8Y000n&_=1717316307979021YwYGC0X8Y000n&_=1717316309245 HTTP/1.1" 200 72
+[2024-06-02 04:18:29] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 04:18:29] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=091Y5b1w3Hf2S23tah4w30Fd1d1Y5b1N&type=3 HTTP/1.1" 200 None
+[2024-06-02 04:18:29] [ERROR] >>> 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\main.py", line 22, in <module>
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\get_wechat_secret.py", line 63, in get_tok_uid
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\http_utils.py", line 126, in send
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xea in position 8: invalid continuation byte
+
+[2024-06-02 05:53:15] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 05:53:16] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 05:53:16] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/081AAkM50pqtHa1c HTTP/1.1" 200 47975
+[2024-06-02 05:53:21] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 05:53:22] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=081AAkM50pqtHa1c&_=1717322001825 HTTP/1.1" 200 72
+[2024-06-02 05:53:22] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 05:53:22] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=051ZPv000Tc5eS1yfX100jyOLV2ZPv0G&type=3 HTTP/1.1" 200 None
+[2024-06-02 05:53:22] [ERROR] >>> 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\main.py", line 22, in <module>
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\get_wechat_secret.py", line 63, in get_tok_uid
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\http_utils.py", line 126, in send
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 4: invalid continuation byte
+
+[2024-06-02 05:57:58] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 05:57:58] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-02 05:57:58] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/011er9ql27ah1w3q HTTP/1.1" 200 47370
+[2024-06-02 05:58:03] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 05:58:03] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=011er9ql27ah1w3q&_=1717322283100 HTTP/1.1" 200 40
+[2024-06-02 05:58:04] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 05:58:04] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=011er9ql27ah1w3q&_=1717322283100011er9ql27ah1w3q&_=1717322284335 HTTP/1.1" 200 72
+[2024-06-02 05:58:04] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 05:58:04] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=041PaN000blmeS1u9r300pRSPD0PaN0W&type=3 HTTP/1.1" 200 None
+[2024-06-02 05:58:04] [ERROR] >>> 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\main.py", line 22, in <module>
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\get_wechat_secret.py", line 63, in get_tok_uid
+  File "C:\Users\Administrator\AppData\Local\Temp\ONEFIL~1\http_utils.py", line 126, in send
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 4: invalid continuation byte
+
+[2024-06-02 06:12:51] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 06:12:51] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11564
+[2024-06-02 06:12:51] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/021QSh6w3ehzFa1j HTTP/1.1" 200 46661
+[2024-06-02 06:12:57] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 06:13:01] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=021QSh6w3ehzFa1j&_=1717323177353 HTTP/1.1" 200 40
+[2024-06-02 06:13:02] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 06:13:02] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=021QSh6w3ehzFa1j&_=1717323177353021QSh6w3ehzFa1j&_=1717323182210 HTTP/1.1" 200 40
+[2024-06-02 06:13:03] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-02 06:13:03] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=021QSh6w3ehzFa1j&_=1717323177353021QSh6w3ehzFa1j&_=1717323182210021QSh6w3ehzFa1j&_=1717323183460 HTTP/1.1" 200 72
+[2024-06-02 06:13:03] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 06:13:04] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081qASkl2Dgsyd4jRiol2i4fEK0qASkv&type=3 HTTP/1.1" 200 None
+[2024-06-02 07:39:14] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-02 07:39:14] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11562
+[2024-06-02 07:39:14] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/091BcibA2M500w3a HTTP/1.1" 200 47185
+[2024-06-02 07:39:20] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-02 07:39:20] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=091BcibA2M500w3a&_=1717328360232 HTTP/1.1" 200 72
+[2024-06-02 07:39:20] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 07:39:20] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=011bi61w3JwXR23Xms0w3clw7I2bi61R&type=3 HTTP/1.1" 200 None
+[2024-06-02 07:39:28] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-02 07:39:28] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-03 07:38:18] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-03 07:38:18] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-03 07:38:18] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/061Z5H8o3jWd000f HTTP/1.1" 200 47055
+[2024-06-03 07:38:30] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-03 07:38:30] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11564
+[2024-06-03 07:38:30] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/091v6bSl3c9k100t HTTP/1.1" 200 47276
+[2024-06-03 07:38:35] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-03 07:38:35] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=091v6bSl3c9k100t&_=1717371515387 HTTP/1.1" 200 40
+[2024-06-03 07:38:36] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-03 07:38:36] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=091v6bSl3c9k100t&_=1717371515387091v6bSl3c9k100t&_=1717371516653 HTTP/1.1" 200 72
+[2024-06-03 07:38:37] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-03 07:38:37] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071qyQkl2rkLyd4aE6nl27Vnxk0qyQk5&type=3 HTTP/1.1" 200 None
+[2024-06-03 07:38:40] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-03 07:38:41] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-03 07:38:41] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-03 07:38:42] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-03 07:38:42] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-03 07:38:43] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-03 07:38:44] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-03 07:38:45] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/submitCompetition HTTP/1.1" 200 None
+[2024-06-03 07:38:53] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy-app.lgb360.com:443
+[2024-06-03 07:38:53] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-03 07:38:53] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/drawPrize HTTP/1.1" 200 None
+[2024-06-03 07:38:57] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/drawPrize HTTP/1.1" 200 None
+[2024-06-03 07:39:03] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-03 07:39:57] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-03 07:40:06] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-03 07:40:10] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-03 07:40:28] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-03 07:40:28] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-03 07:40:28] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/001xrvL503qOFa18 HTTP/1.1" 200 47146
+[2024-06-03 07:40:33] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-03 07:40:33] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=001xrvL503qOFa18&_=1717371633075 HTTP/1.1" 200 40
+[2024-06-03 07:40:34] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-03 07:40:34] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=001xrvL503qOFa18&_=1717371633075001xrvL503qOFa18&_=1717371634309 HTTP/1.1" 200 72
+[2024-06-03 07:40:34] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-03 07:40:34] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0511Vdml2qVnxd4OtGol22TCIz11Vdmj&type=3 HTTP/1.1" 200 None
+[2024-06-03 07:40:38] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-03 07:40:38] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-03 07:40:42] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-03 07:40:47] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy-app.lgb360.com:443
+[2024-06-03 07:40:47] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-03 07:29:57] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-03 07:29:58] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-03 07:29:58] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/00109nNS3BhE000B HTTP/1.1" 200 46596
+[2024-06-03 07:30:04] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-03 07:30:06] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=00109nNS3BhE000B&_=1717414204096 HTTP/1.1" 200 40
+[2024-06-03 07:30:07] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-03 07:30:07] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=00109nNS3BhE000B&_=171741420409600109nNS3BhE000B&_=1717414207065 HTTP/1.1" 200 72
+[2024-06-03 07:30:07] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-03 07:30:07] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=041bTgll2Rzlzd4sxjll2LQCno1bTgl9&type=3 HTTP/1.1" 200 None
+[2024-06-03 07:30:40] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-03 07:30:40] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-03 07:30:46] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-04 09:55:04] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-04 09:55:04] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-04 09:55:05] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/091RUEWn0b5rFa1z HTTP/1.1" 200 46410
+[2024-06-04 09:55:14] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-04 09:55:14] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=091RUEWn0b5rFa1z&_=1717466114170 HTTP/1.1" 200 72
+[2024-06-04 09:55:14] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-04 09:55:14] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=011J5rFa1CPSyH0S7pFa1EBR2E3J5rF6&type=3 HTTP/1.1" 200 None
+[2024-06-04 09:55:21] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-04 09:55:21] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-04 09:55:43] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-04 09:55:43] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-04 09:55:57] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-04 09:56:10] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-04 09:56:10] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-04 09:56:10] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/submitCompetition HTTP/1.1" 200 None
+[2024-06-04 09:56:19] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-04 09:56:24] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy-app.lgb360.com:443
+[2024-06-04 09:56:24] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-05 09:26:18] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 09:26:19] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 09:26:19] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/031ma6g32wPv100a HTTP/1.1" 200 47247
+[2024-06-05 09:26:25] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 09:26:25] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=031ma6g32wPv100a&_=1717550784920 HTTP/1.1" 200 40
+[2024-06-05 09:26:26] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 09:26:26] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=031ma6g32wPv100a&_=1717550784920031ma6g32wPv100a&_=1717550786170 HTTP/1.1" 200 72
+[2024-06-05 09:26:26] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 09:26:26] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=031TMe100mLqdS1oNo300RMKKB3TMe1Z&type=3 HTTP/1.1" 200 None
+[2024-06-05 09:26:33] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 09:26:33] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-05 09:26:40] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 09:27:48] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy-app.lgb360.com:443
+[2024-06-05 09:27:48] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-05 10:49:58] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 10:49:58] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 10:49:59] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/031UbwpF1qMf1w3v HTTP/1.1" 200 46543
+[2024-06-05 10:50:04] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 10:50:04] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=031UbwpF1qMf1w3v&_=1717555804557 HTTP/1.1" 200 40
+[2024-06-05 10:50:05] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 10:50:06] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=031UbwpF1qMf1w3v&_=1717555804557031UbwpF1qMf1w3v&_=1717555805792 HTTP/1.1" 200 40
+[2024-06-05 10:50:07] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 10:50:07] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=031UbwpF1qMf1w3v&_=1717555804557031UbwpF1qMf1w3v&_=1717555805792031UbwpF1qMf1w3v&_=1717555807011 HTTP/1.1" 200 72
+[2024-06-05 10:50:07] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 10:50:07] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=051ThbHa1CfxxH0JEUIa1ldwfu4ThbHb&type=3 HTTP/1.1" 200 None
+[2024-06-05 10:50:15] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 42, in <module>
+    print('当前积分为：'+str(result_dict['data']['points']))
+KeyError: 'data'
+
+[2024-06-05 10:50:53] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 10:50:53] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 10:50:53] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/091U9dSA1p592003 HTTP/1.1" 200 46874
+[2024-06-05 10:50:58] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 10:50:58] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=091U9dSA1p592003&_=1717555858355 HTTP/1.1" 200 72
+[2024-06-05 10:50:58] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 10:50:58] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=021yQL000CxWdS13dT000c6z8X0yQL0Z&type=3 HTTP/1.1" 200 None
+[2024-06-05 10:51:35] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 42, in <module>
+    print('当前积分为：'+str(result_dict['data']['points']))
+KeyError: 'data'
+
+[2024-06-05 10:54:40] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 10:54:40] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 10:54:41] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/071IrhOy4x1v000R HTTP/1.1" 200 47254
+[2024-06-05 10:54:46] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 10:54:46] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071IrhOy4x1v000R&_=1717556086498 HTTP/1.1" 200 72
+[2024-06-05 10:54:46] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 10:54:47] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0715Suml2Fbrxd4Jxlll2DIjWz45Sumb&type=3 HTTP/1.1" 200 None
+[2024-06-05 10:58:09] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 10:58:09] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 10:58:10] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/081ywkjV10GY200B HTTP/1.1" 200 46874
+[2024-06-05 10:58:15] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 10:58:15] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=081ywkjV10GY200B&_=1717556295106 HTTP/1.1" 200 72
+[2024-06-05 10:58:15] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 10:58:15] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=081f8Mml2L3axd42Lxol2Zm3rH3f8MmG&type=3 HTTP/1.1" 200 None
+[2024-06-05 10:58:15] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 23, in <module>
+    memberId, token ,cookie= get_tok_uid()
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\get_wechat_secret.py", line 70, in get_tok_uid
+    cookie_string = requests.utils.dict_to_cookie_header(cookie)
+AttributeError: module 'requests.utils' has no attribute 'dict_to_cookie_header'
+
+[2024-06-05 11:03:47] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:03:47] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11562
+[2024-06-05 11:03:48] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/031eu45B42DM000n HTTP/1.1" 200 46211
+[2024-06-05 11:03:53] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:03:53] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=031eu45B42DM000n&_=1717556633481 HTTP/1.1" 200 72
+[2024-06-05 11:03:53] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:03:54] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=091MPxFa1otazH0frNGa12jsi54MPxFj&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:04:09] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 42, in <module>
+    print('当前积分为：'+str(result_dict['data']['points']))
+KeyError: 'data'
+
+[2024-06-05 11:32:42] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:32:42] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 11:32:42] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/071sPV034PG7Ga1U HTTP/1.1" 200 47016
+[2024-06-05 11:32:47] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:32:49] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071sPV034PG7Ga1U&_=1717558367424 HTTP/1.1" 200 40
+[2024-06-05 11:32:50] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 11:32:51] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071sPV034PG7Ga1U&_=1717558367424071sPV034PG7Ga1U&_=1717558370815 HTTP/1.1" 200 40
+[2024-06-05 11:32:52] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 11:32:52] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071sPV034PG7Ga1U&_=1717558367424071sPV034PG7Ga1U&_=1717558370815071sPV034PG7Ga1U&_=1717558372049 HTTP/1.1" 200 72
+[2024-06-05 11:32:52] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:32:52] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=051TZqll2lVzyd4WEaol2zkNtx1TZqlr&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:32:52] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 30, in <module>
+    http_client.cookie=cookie+'token:'+token+';'+'memberId:'+memberId+';'
+TypeError: unsupported operand type(s) for +: 'dict' and 'str'
+
+[2024-06-05 11:38:48] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:38:49] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 11:38:49] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/081kZy3u1wsZll2c HTTP/1.1" 200 46708
+[2024-06-05 11:38:54] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:39:01] [DEBUG] >>> 
+Starting new HTTPS connection (2): lp.open.weixin.qq.com:443
+[2024-06-05 11:39:04] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=081kZy3u1wsZll2c&_=1717558734806081kZy3u1wsZll2c&_=1717558740981 HTTP/1.1" 200 40
+[2024-06-05 11:39:05] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 11:39:05] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=081kZy3u1wsZll2c&_=1717558734806081kZy3u1wsZll2c&_=1717558740981081kZy3u1wsZll2c&_=1717558745538 HTTP/1.1" 200 72
+[2024-06-05 11:39:05] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:39:06] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=001xtZll2MJ1yd4KYKml2JaGlN1xtZlx&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:39:06] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 31, in <module>
+    cookie_string=cookie+'token:'+token+';'+'memberId:'+memberId+';'
+TypeError: unsupported operand type(s) for +: 'dict' and 'str'
+
+[2024-06-05 11:41:40] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:41:41] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 11:41:41] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0918LAcb2OhpGa1O HTTP/1.1" 200 46513
+[2024-06-05 11:41:46] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:41:46] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0918LAcb2OhpGa1O&_=1717558906163 HTTP/1.1" 200 72
+[2024-06-05 11:41:46] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:41:46] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=021ZJc0w3xjOT23w9C3w3FwEeM1ZJc0C&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:43:34] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:43:34] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 11:43:34] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/011qKltY3ZrGGa1O HTTP/1.1" 200 46894
+[2024-06-05 11:43:39] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:43:39] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=011qKltY3ZrGGa1O&_=1717559019612 HTTP/1.1" 200 72
+[2024-06-05 11:43:39] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:43:40] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=051H9n100xFodS1Wme100b4NoK2H9n12&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:45:25] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:45:25] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11564
+[2024-06-05 11:45:25] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0919p9cP05IvHa1t HTTP/1.1" 200 47969
+[2024-06-05 11:45:30] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:45:30] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0919p9cP05IvHa1t&_=1717559130508 HTTP/1.1" 200 72
+[2024-06-05 11:45:30] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:45:31] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0217VVZv3AS0U23THw2w30F3Kk37VVZL&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:46:25] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:46:26] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 11:46:26] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/091RFEjm4J4u0w3u HTTP/1.1" 200 47232
+[2024-06-05 11:46:31] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:46:31] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=091RFEjm4J4u0w3u&_=1717559191141 HTTP/1.1" 200 40
+[2024-06-05 11:46:32] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 11:46:32] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=091RFEjm4J4u0w3u&_=1717559191141091RFEjm4J4u0w3u&_=1717559192359 HTTP/1.1" 200 72
+[2024-06-05 11:46:32] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:46:32] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0418DGGa1x01yH0dDbGa1ZSM7I28DGG0&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:47:19] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:47:19] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 11:47:19] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/071r63u81FqE100D HTTP/1.1" 200 47464
+[2024-06-05 11:47:24] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:47:24] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071r63u81FqE100D&_=1717559244215 HTTP/1.1" 200 72
+[2024-06-05 11:47:24] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:47:24] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=021pDpGa1GZhyH0B1jJa1qvCUs1pDpG4&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:47:25] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 34, in <module>
+    cookie_dict = dict(item.split("=") for item in cookie_string.split("; "))
+ValueError: dictionary update sequence element #1 has length 4; 2 is required
+
+[2024-06-05 11:51:52] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:51:53] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 11:51:53] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/021Fba4V3OyP000v HTTP/1.1" 200 46025
+[2024-06-05 11:51:58] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:51:58] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=021Fba4V3OyP000v&_=1717559518084 HTTP/1.1" 200 40
+[2024-06-05 11:51:59] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 11:51:59] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=021Fba4V3OyP000v&_=1717559518084021Fba4V3OyP000v&_=1717559519318 HTTP/1.1" 200 72
+[2024-06-05 11:51:59] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:51:59] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0419wy000jY9eS106q200czB0C19wy0I&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:52:00] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 34, in <module>
+    cookie_dict = dict(item.split("=") for item in cookie_string.split("; "))
+ValueError: dictionary update sequence element #1 has length 3; 2 is required
+
+[2024-06-05 11:54:20] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:54:20] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 11:54:20] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/011P6nzm2C09Ga11 HTTP/1.1" 200 47093
+[2024-06-05 11:54:26] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:54:26] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=011P6nzm2C09Ga11&_=1717559666560 HTTP/1.1" 200 72
+[2024-06-05 11:54:26] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:54:27] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=011lz0000yiIeS1Iii300eXlT14lz00r&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:54:27] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 35, in <module>
+    cookie_dict = dict(item.split("=") for item in cookie_string.split("; "))
+ValueError: dictionary update sequence element #1 has length 3; 2 is required
+
+[2024-06-05 11:58:14] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:58:14] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11564
+[2024-06-05 11:58:14] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/091PA4Mh4kcSFa1G HTTP/1.1" 200 46840
+[2024-06-05 11:58:20] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:58:21] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=091PA4Mh4kcSFa1G&_=1717559900087 HTTP/1.1" 200 40
+[2024-06-05 11:58:22] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 11:58:22] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=091PA4Mh4kcSFa1G&_=1717559900087091PA4Mh4kcSFa1G&_=1717559902103 HTTP/1.1" 200 72
+[2024-06-05 11:58:22] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:58:22] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=061TT21w3mHVS23Xt44w3YhIFs3TT21Y&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:58:22] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 35, in <module>
+    cookie_dict = dict(item.split("=") for item in cookie_string.split("; "))
+ValueError: dictionary update sequence element #4 has length 1; 2 is required
+
+[2024-06-05 11:59:22] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 11:59:22] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11562
+[2024-06-05 11:59:23] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/061rKltY3bCsll2t HTTP/1.1" 200 46927
+[2024-06-05 11:59:28] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 11:59:28] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=061rKltY3bCsll2t&_=1717559967898 HTTP/1.1" 200 72
+[2024-06-05 11:59:28] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 11:59:28] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=051sCsll278wyd4y8Hll2TiWF11sCslQ&type=3 HTTP/1.1" 200 None
+[2024-06-05 11:59:28] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 35, in <module>
+    cookie_dict = dict(item.split("=") for item in cookie_string.split("; "))
+ValueError: dictionary update sequence element #4 has length 1; 2 is required
+
+[2024-06-05 12:01:32] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 12:01:32] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 12:01:32] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0913wQzX1MTWZv3x HTTP/1.1" 200 46150
+[2024-06-05 12:01:37] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 12:01:37] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0913wQzX1MTWZv3x&_=1717560097550 HTTP/1.1" 200 40
+[2024-06-05 12:01:38] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 12:01:39] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0913wQzX1MTWZv3x&_=17175600975500913wQzX1MTWZv3x&_=1717560098785 HTTP/1.1" 200 72
+[2024-06-05 12:01:39] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 12:01:39] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=091apSFa1p2RyH0yVLIa1hNzno1apSFq&type=3 HTTP/1.1" 200 None
+[2024-06-05 12:01:51] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 51, in <module>
+    print('当前积分为：'+str(result_dict['data']['points']))
+KeyError: 'data'
+
+[2024-06-05 12:03:23] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 12:03:23] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 12:03:23] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/081dr35p0NsBFa1P HTTP/1.1" 200 47251
+[2024-06-05 12:03:28] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 12:03:29] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=081dr35p0NsBFa1P&_=1717560208821 HTTP/1.1" 200 40
+[2024-06-05 12:03:30] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 12:03:30] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=081dr35p0NsBFa1P&_=1717560208821081dr35p0NsBFa1P&_=1717560210087 HTTP/1.1" 200 72
+[2024-06-05 12:03:30] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 12:03:30] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=001ljB1w3gVnS23zhq0w32VWXf0ljB1B&type=3 HTTP/1.1" 200 None
+[2024-06-05 12:08:08] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 117, in <module>
+    surplusNum = int(result_dict['data']['surplusNum'])
+KeyError: 'data'
+
+[2024-06-05 12:08:33] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 12:08:33] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11562
+[2024-06-05 12:08:33] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/011xlN6m1uCB1w3i HTTP/1.1" 200 47391
+[2024-06-05 12:08:39] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 12:08:39] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=011xlN6m1uCB1w3i&_=1717560519107 HTTP/1.1" 200 72
+[2024-06-05 12:08:39] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 12:08:39] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=08175Vkl2Tk4zd4lJGll2KCots075VkX&type=3 HTTP/1.1" 200 None
+[2024-06-05 12:09:32] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 51, in <module>
+    print('当前积分为：'+str(result_dict['data']['points']))
+KeyError: 'data'
+
+[2024-06-05 12:10:19] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 12:10:19] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 12:10:19] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0713oAno1bbgHa1h HTTP/1.1" 200 47802
+[2024-06-05 12:10:24] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 12:10:25] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0713oAno1bbgHa1h&_=1717560624746 HTTP/1.1" 200 72
+[2024-06-05 12:10:25] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 12:10:25] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=041LDz000AJaeS1wtD100shHu30LDz0A&type=3 HTTP/1.1" 200 None
+[2024-06-05 12:10:33] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 52, in <module>
+    print('当前积分为：'+str(result_dict['data']['points']))
+KeyError: 'data'
+
+[2024-06-05 12:13:27] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 12:13:27] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 12:13:27] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/071rC5hp3s1G100O HTTP/1.1" 200 47307
+[2024-06-05 12:13:32] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 12:13:32] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071rC5hp3s1G100O&_=1717560812393 HTTP/1.1" 200 72
+[2024-06-05 12:13:32] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 12:13:32] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0519baGa1ijByH0NJwGa1wAWa909baG7&type=3 HTTP/1.1" 200 None
+[2024-06-05 12:13:33] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 41, in <module>
+    print(http_client.header.cookie)
+AttributeError: 'HTTPClient' object has no attribute 'header'
+
+[2024-06-05 12:14:54] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 12:14:55] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 12:14:55] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/071pTcKu0Z6G100W HTTP/1.1" 200 46361
+[2024-06-05 12:15:00] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 12:15:00] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071pTcKu0Z6G100W&_=1717560900720 HTTP/1.1" 200 40
+[2024-06-05 12:15:02] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 12:15:02] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071pTcKu0Z6G100W&_=1717560900720071pTcKu0Z6G100W&_=1717560901970 HTTP/1.1" 200 72
+[2024-06-05 12:15:02] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 12:15:02] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071KIXZv3jS2U23BfE1w3HRmLa1KIXZY&type=3 HTTP/1.1" 200 None
+[2024-06-05 12:16:26] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 12:16:27] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 12:16:27] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/0017G0F62jvZGa1O HTTP/1.1" 200 46404
+[2024-06-05 12:16:34] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 12:16:34] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=0017G0F62jvZGa1O&_=1717560994202 HTTP/1.1" 200 72
+[2024-06-05 12:16:34] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 12:16:34] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=0018ap100j9mdS1zwA100JHdes28ap1T&type=3 HTTP/1.1" 200 None
+[2024-06-05 12:16:40] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 50, in <module>
+    result_dict = http_client.send(URLS['lgb2023_competition'])
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 105, in send
+    self.setHeaders(header)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 70, in setHeaders
+    headers['cookie'] = "; ".join([f"{name}={value}" for name, value in requests.utils.cookiejar_from_dict(self.cookie).items()])+"; "
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\cookies.py", line 537, in cookiejar_from_dict
+    cookiejar.set_cookie(create_cookie(name, cookie_dict[name]))
+TypeError: list indices must be integers or slices, not dict
+
+[2024-06-05 12:17:58] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 12:17:59] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 12:17:59] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/091vYnD40s6A000c HTTP/1.1" 200 47342
+[2024-06-05 12:18:04] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 12:18:04] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=091vYnD40s6A000c&_=1717561084151 HTTP/1.1" 200 72
+[2024-06-05 12:18:04] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 12:18:04] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=001JEVkl2EP4zd43Gfml2asmi03JEVka&type=3 HTTP/1.1" 200 None
+[2024-06-05 12:18:09] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 50, in <module>
+    result_dict = http_client.send(URLS['lgb2023_competition'])
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 105, in send
+    self.setHeaders(header)
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\http_utils.py", line 70, in setHeaders
+    headers['cookie'] = "; ".join([f"{name}={value}" for name, value in requests.utils.cookiejar_from_dict(self.cookie).items()])+"; "
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\cookies.py", line 537, in cookiejar_from_dict
+    cookiejar.set_cookie(create_cookie(name, cookie_dict[name]))
+TypeError: list indices must be integers or slices, not dict
+
+[2024-06-05 12:20:04] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 12:20:04] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 12:20:04] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/041zWprH3oStll2t HTTP/1.1" 200 46485
+[2024-06-05 12:20:09] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 12:20:09] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=041zWprH3oStll2t&_=1717561209537 HTTP/1.1" 200 40
+[2024-06-05 12:20:11] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 12:20:11] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=041zWprH3oStll2t&_=1717561209537041zWprH3oStll2t&_=1717561210944 HTTP/1.1" 200 40
+[2024-06-05 12:20:12] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 12:20:13] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=041zWprH3oStll2t&_=1717561209537041zWprH3oStll2t&_=1717561210944041zWprH3oStll2t&_=1717561212503 HTTP/1.1" 200 72
+[2024-06-05 12:20:13] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 12:20:13] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=021RhR000sQQdS1FpI3006DR4Q2RhR0k&type=3 HTTP/1.1" 200 None
+[2024-06-05 12:20:25] [ERROR] >>> 
+Traceback (most recent call last):
+  File "D:\user\liangongbao_help-main\liangongbao-main\liangongbao-main\main.py", line 52, in <module>
+    print('当前积分为：'+str(result_dict['data']['points']))
+KeyError: 'data'
+
+[2024-06-05 01:01:25] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 01:01:26] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 01:01:26] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/001V3gd61TACml29 HTTP/1.1" 200 46517
+[2024-06-05 01:01:32] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 01:01:32] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=001V3gd61TACml29&_=1717563692182 HTTP/1.1" 200 72
+[2024-06-05 01:01:33] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 01:01:33] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=021C9uGa1rgfyH0q7LFa1R971Y2C9uGe&type=3 HTTP/1.1" 200 None
+[2024-06-05 01:01:48] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 01:01:48] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 01:02:06] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/activity?memberId=oDuuO0XhL2Wo-avAvTYtr0Tq360A HTTP/1.1" 200 None
+[2024-06-05 01:02:06] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 01:02:07] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-05 01:02:09] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-05 01:02:10] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-05 01:02:12] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-05 01:02:13] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-05 01:02:14] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-05 01:02:15] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/submitCompetition HTTP/1.1" 200 None
+[2024-06-05 01:04:53] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy-app.lgb360.com:443
+[2024-06-05 01:04:53] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-05 01:04:54] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/drawPrize HTTP/1.1" 200 None
+[2024-06-05 01:04:56] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/drawPrize HTTP/1.1" 200 None
+[2024-06-05 01:08:41] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 01:08:42] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11564
+[2024-06-05 01:08:42] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/071r08SU0HuWFa1y HTTP/1.1" 200 47106
+[2024-06-05 01:08:48] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 01:08:48] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071r08SU0HuWFa1y&_=1717564128115 HTTP/1.1" 200 72
+[2024-06-05 01:08:48] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 01:08:49] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=091w9m0000loeS1Ehg000ZGd4V3w9m0k&type=3 HTTP/1.1" 200 None
+[2024-06-05 01:09:31] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 01:09:31] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 01:09:31] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/031ZDxti3TGLGa1L HTTP/1.1" 200 47100
+[2024-06-05 01:09:36] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 01:09:36] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=031ZDxti3TGLGa1L&_=1717564176551 HTTP/1.1" 200 72
+[2024-06-05 01:09:36] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 01:09:37] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=071ucm000bloeS1lOZ000fJkGs3ucm0J&type=3 HTTP/1.1" 200 None
+[2024-06-05 01:09:43] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 01:09:43] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/activity?memberId=oDuuO0as7_wcVkw57Ioj9VK7xAYQ HTTP/1.1" 200 None
+[2024-06-05 01:09:43] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 01:09:44] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-05 01:09:44] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-05 01:09:45] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-05 01:09:46] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-05 01:09:46] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-05 01:09:47] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/answerQues HTTP/1.1" 200 None
+[2024-06-05 01:09:48] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/submitCompetition HTTP/1.1" 200 None
+[2024-06-05 01:10:53] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 01:10:56] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy-app.lgb360.com:443
+[2024-06-05 01:10:56] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-05 01:10:56] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/drawPrize HTTP/1.1" 200 None
+[2024-06-05 01:10:58] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/drawPrize HTTP/1.1" 200 None
+[2024-06-05 01:11:03] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 02:07:13] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 02:07:13] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 02:07:13] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/061xXMy74Cca3008 HTTP/1.1" 200 46615
+[2024-06-05 02:07:18] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 02:07:20] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=061xXMy74Cca3008&_=1717567638852 HTTP/1.1" 200 40
+[2024-06-05 02:07:21] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 02:07:21] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=061xXMy74Cca3008&_=1717567638852061xXMy74Cca3008&_=1717567641242 HTTP/1.1" 200 40
+[2024-06-05 02:07:22] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 02:07:22] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=061xXMy74Cca3008&_=1717567638852061xXMy74Cca3008&_=1717567641242061xXMy74Cca3008&_=1717567642477 HTTP/1.1" 200 72
+[2024-06-05 02:07:22] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 02:07:23] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=091OLG0001zqfS1kax300PgHvf4OLG0z&type=3 HTTP/1.1" 200 None
+[2024-06-05 02:07:31] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 02:07:31] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/activity?memberId=oDuuO0XhL2Wo-avAvTYtr0Tq360A HTTP/1.1" 200 None
+[2024-06-05 02:07:31] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 02:07:31] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-05 02:07:38] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 02:11:53] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy-app.lgb360.com:443
+[2024-06-05 02:11:53] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
+[2024-06-05 02:11:58] [DEBUG] >>> 
+Resetting dropped connection: aqy.lgb360.com
+[2024-06-05 02:11:58] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/activity?memberId=oDuuO0XhL2Wo-avAvTYtr0Tq360A HTTP/1.1" 200 None
+[2024-06-05 02:11:59] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 02:11:59] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-05 04:01:25] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 04:01:25] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 04:01:26] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/071tHFOt3KR62w30 HTTP/1.1" 200 47345
+[2024-06-05 04:01:32] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 04:01:37] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071tHFOt3KR62w30&_=1717574492785 HTTP/1.1" 200 40
+[2024-06-05 04:01:38] [DEBUG] >>> 
+Resetting dropped connection: lp.open.weixin.qq.com
+[2024-06-05 04:01:38] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=071tHFOt3KR62w30&_=1717574492785071tHFOt3KR62w30&_=1717574498105 HTTP/1.1" 200 72
+[2024-06-05 04:01:38] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 04:01:38] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=021NJN000BXxfS1boU100cM7x52NJN09&type=3 HTTP/1.1" 200 None
+[2024-06-05 04:01:49] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 04:01:49] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/activity?memberId=oDuuO0XhL2Wo-avAvTYtr0Tq360A HTTP/1.1" 200 None
+[2024-06-05 04:01:49] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 04:01:49] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-05 04:06:33] [DEBUG] >>> 
+Starting new HTTPS connection (1): open.weixin.qq.com:443
+[2024-06-05 04:06:34] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrconnect?appid=wx4411fdc32430ce58&scope=snsapi_login&redirect_uri=https%3A%2F%2Faqy.lgb360.com%2F%23%2Flogin&state=123456 HTTP/1.1" 200 11563
+[2024-06-05 04:06:34] [DEBUG] >>> 
+https://open.weixin.qq.com:443 "GET /connect/qrcode/081ZjnXJ1w8m100q HTTP/1.1" 200 46645
+[2024-06-05 04:06:39] [DEBUG] >>> 
+Starting new HTTPS connection (1): lp.open.weixin.qq.com:443
+[2024-06-05 04:06:39] [DEBUG] >>> 
+https://lp.open.weixin.qq.com:443 "GET /connect/l/qrconnect?uuid=081ZjnXJ1w8m100q&_=1717574799723 HTTP/1.1" 200 72
+[2024-06-05 04:06:40] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 04:06:40] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/wechat/accountLogin?code=001dfzFa1mIGzH0lzKGa1q7rkm4dfzFi&type=3 HTTP/1.1" 200 None
+[2024-06-05 04:06:46] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy.lgb360.com:443
+[2024-06-05 04:06:46] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/activity?memberId=oDuuO0XhL2Wo-avAvTYtr0Tq360A HTTP/1.1" 200 None
+[2024-06-05 04:06:46] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 04:06:46] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "POST /aqy/ques/startCompetition HTTP/1.1" 200 None
+[2024-06-05 04:06:49] [DEBUG] >>> 
+https://aqy.lgb360.com:443 "GET /aqy/regist/competition HTTP/1.1" 200 None
+[2024-06-05 04:06:53] [DEBUG] >>> 
+Starting new HTTPS connection (1): aqy-app.lgb360.com:443
+[2024-06-05 04:06:53] [DEBUG] >>> 
+https://aqy-app.lgb360.com:443 "POST /aqy/prize/getDrawSurplusNum HTTP/1.1" 200 None
